@@ -19,7 +19,7 @@ st.set_page_config(page_title="ICT-Projektübersicht", layout="wide", page_icon=
 SCRIPT_DIR = Path(__file__).parent
 
 #LOCAL_FILE = "https://github.com/iotoel/projektuebersicht/raw/refs/heads/main/Monatliches%20Projekt-Reporting.xlsx"
-LOCAL_FILE = "https://raw.githubusercontent.com/iotoel/projektuebersicht/main/Monatliches%20Projekt-Reporting.xlsx"
+LOCAL_FILE = "https://raw.githubusercontent.com/iotoel/test/main/Monatliches%20Projekt-Reporting.xlsx"
 FALLBACK_FILE = SCRIPT_DIR / "Monatliches Projekt-Reporting.xlsx" #Path(r"D:\Desktop\Monatliches Projekt-Reporting.xlsx")
 
 try:
