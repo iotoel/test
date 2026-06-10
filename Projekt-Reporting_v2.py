@@ -344,7 +344,10 @@ def export_overview_pdf(filtered_df):
 # ──────────────────────────────────────────
 # Load data
 # ──────────────────────────────────────────
-df = load_data(pfad)
+try:
+    df = load_data(LOCAL_FILE)
+except Exception as ex:
+    st.error(f"Fehler beim Laden der Excel-Datei: {ex}")
 #uploaded = st.sidebar.file_uploader("📂 Excel laden (.xlsx)", type=["xlsx"])
 #if uploaded:
 #    df = load_data(uploaded)
