@@ -4,7 +4,7 @@ setlocal
 cd /d "%~dp0"
 
 echo.
-set /p COMMITMSG=Commit-Message eingeben:
+set /p COMMITMSG=Commit-Message eingeben: 
 
 if "%COMMITMSG%"=="" (
 echo Commit-Message darf nicht leer sein.
@@ -32,3 +32,4 @@ git push -u origin main
 
 echo.
 echo Fertig.
+pause
