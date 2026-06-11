@@ -15,14 +15,6 @@ import os
 
 st.set_page_config(page_title="ICT-Projektübersicht", layout="wide", page_icon="🏢")
 
-st.markdown("""
-<style>
-[data-testid="stStatusWidget"] {
-    display: none;
-}
-</style>
-""", unsafe_allow_html=True)
-
 # Pfad zur Exceldatei
 SCRIPT_DIR = Path(__file__).parent
 
