@@ -32,4 +32,3 @@ git push -u origin main
 
 echo.
 echo Fertig.
-pause
