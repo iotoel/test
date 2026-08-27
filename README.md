@@ -13,15 +13,13 @@ Die App ist ein Streamlit-Dashboard ("ICT-Projektübersicht"), das Projektdaten 
 | **`push.bat`** | Hilfsskript, um lokale Änderungen (Code und/oder Inhalt) per `git add` / `git commit` / `git push` ins GitHub-Repo zu pushen. Dazu muss der lokale Ordner als lokales Git-Repository eingerichtet sein. Fragt beim Ausführen interaktiv nach einer Commit-Message. |
 | **`EMPA.jpeg`** | Empa-Logo, das auf der Streamlit-Seite angezeigt wird. |
 | **`requirements.txt`** | Python-Abhängigkeiten, die Streamlit vor dem Start der App installieren muss: `streamlit`, `pandas`, `openpyxl`, `reportlab`. |
-| **`README.md`** | Kurzhinweise im Repo (Pfad zur Excel-Datei ändern, `requirements.txt` pflegen). Nicht up-to-date, ersetzt diese Dokumentation nicht. |
-
-Hinweis zum Dateinamen: Die Hauptdatei wird teilweise noch als `Projekt-Reporting.py` bezeichnet, heisst im Repo aber `Projekt-Reporting.py`.
+| **`README.md`** | Diese Dokumentation |
 
 **Wichtig:** Der Stand auf Joels GitHub (`iotoel`) ist nicht aktuell. Jovo hat lokal noch diverse Änderungen am Code vorgenommen, die noch nicht in dieses Repository gepusht wurden. Vor grösseren Anpassungen unbedingt mit Jovo abklären, welche Version aktuell gilt, bzw. seinen Stand zuerst einspielen.
 
 ## 3. Ablage-Ort
 
-- Sämtliche Dateien liegen auf dem privaten GitHub-Repository von Jovo (`iotoel/test`), welches öffentlich zugänglich ist (Lese-Rechte).
+- Sämtliche Dateien liegen auf dem privaten GitHub-Repository von Jovo (`jovosp`).
 - Die Dateien liegen nicht auf dem Empa-GitLab, da Streamlit nur von GitHub aus deployen kann.
 - Die Streamlit-Seite wird derzeit über Jovos privaten Streamlit-Account betrieben. Die Seite selbst ist öffentlich zugänglich.
 - Die App muss ggf. zuerst "aufgeweckt" werden (Streamlit Community Cloud legt inaktive Apps schlafen).
@@ -119,6 +117,4 @@ Zusammenspiel App ↔ GitHub-Repo:
 ## 7. Offene Punkte / Bekannte Abweichungen
 
 - Der Stand auf Joels GitHub (`iotoel/test`) ist nicht aktuell. Jovo hat noch Änderungen am Code gemacht, die noch nicht gepusht wurden – vor Arbeiten am Code Rücksprache mit Jovo halten.
-- Das `README.md` im Repository ist nicht aktuell und sollte bei Gelegenheit durch diese Dokumentation ersetzt oder darauf verweisend aktualisiert werden.
 - Der im Code referenzierte Excel-Pfad zeigt auf das Repo `iotoel/test`; ein auskommentierter älterer Pfad verweist noch auf `iotoel/projektuebersicht`.
-- Die Datei heisst im Repo `Projekt-Reporting.py` (nicht `Projekt-Reporting.py`, wie teils noch angenommen wird).
